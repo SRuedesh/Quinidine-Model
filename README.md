@@ -9,8 +9,14 @@ The model snapshot contains simulations of the clinical studies used during mode
 ## Version information
 OSP Version 11.0
 
+## Code of conduct
+Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
+
+## Contribution
+We encourage contribution to the Open Systems Pharmacology community. Before getting started please read the [contribution guidelines](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CONTRIBUTING.md#ways-to-contribute). If you are contributing code, please be familiar with the [coding standard](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODING_STANDARDS.md#visual-studio-settings).
+
 ## License
-The model is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE). 
+The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ### Reference
 [[1] Feick D, Rüdesheim S, Marok FZ, Selzer D, Loer HLH, Teutonico D, Frechen S, van der Lee M, Moes DJAR, Swen JJ, Schwab M, Lehr T. Physiologically-based pharmacokinetic modeling of quinidine to establish a CYP3A4, P-gp, and CYP2D6 drug–drug–gene interaction network. CPT Pharmacometrics Syst Pharmacol 2023. DOI: 10.1002/psp4.12981.](https://doi.org/10.1002/psp4.12981)

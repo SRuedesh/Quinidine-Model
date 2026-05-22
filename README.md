@@ -3,7 +3,7 @@ Whole-body parent-metabolite PBPK model of quinidine as CYP2D6 perpetrator and C
 
 This repository contains the quinidine model originally published by Feick et al. [[1](#references)] and used in the CYP2D6 drug-drug-gene interaction network by Rüdesheim et al. [[2](#references)].
 
-The model was developed and evaluated using published clinical plasma pharmacokinetic data after intravenous or oral quinidine administration by Ochs et al. [[3](#references), [6](#references)], Maeda et al. [[4](#references)], Andreasen et al. [[5](#references)], Strum et al. [[7](#references)], Ching et al. [[8](#references)], Laganière et al. [[9](#references)], Bleske et al. [[10](#references)], Damkier et al. [[11](#references)], Edwards et al. [[12](#references)], Kolb et al. [[13](#references)], Darbar et al. [[14](#references)], Fremstad et al. [[15](#references)], Guentert et al. [[16](#references)], Mason et al. [[17](#references)], Bolme and Otto [[18](#references)], Frigo et al. [[19](#references)], Rao et al. [[20](#references)], Kaukonen et al. [[21](#references)] and Shin et al. [[22](#references)].
+The model was developed and evaluated using published clinical plasma pharmacokinetic data after intravenous or oral quinidine administration by Ochs et al. [[3](#references), [6](#references)], Maeda et al. [[4](#references)], Andreasen et al. [[5](#references)], Strum et al. [[7](#references)], Ching et al. [[8](#references)], Laganière et al. [[9](#references)], Bleske et al. [[10](#references)], Damkier et al. [[11](#references)], Edwards et al. [[12](#references)], Hardy and Schentag [[13](#references)], Kolb et al. [[14](#references)], Darbar et al. [[15](#references)], Fremstad et al. [[16](#references)], Guentert et al. [[17](#references)], Mason et al. [[18](#references)], Bolme and Otto [[19](#references)], Frigo et al. [[20](#references)], Rao et al. [[21](#references)], Kaukonen et al. [[22](#references)] and Shin et al. [[23](#references)].
 
 Users of the model are expected to cite these studies when using the model in scientific work, reports or derivative model development:
 - [D Feick, S Rüdesheim, F Z Marok, D Selzer, H L H Loer, D Teutonico, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. Physiologically-Based Pharmacokinetic Modeling of Quinidine to Establish a CYP3A4, P-gp and CYP2D6 Drug-Drug-Gene Interaction Network. CPT Pharmacometrics Syst Pharmacol, 2023;12:1143-1156.](https://doi.org/10.1002/psp4.12981)
@@ -65,22 +65,24 @@ The model code is distributed under the [GPLv2 License](https://github.com/Open-
 
 [12] [D J Edwards, R Lavoie, H Beckman, R Blevins, M Rubenfire. Effect of verapamil on quinidine pharmacokinetics and metabolism. Clin Pharmacol Ther, 1987;41:68-73.](https://doi.org/10.1038/clpt.1987.11)
 
-[13] [K W Kolb, W R Garnett, R E Small, G W Vetrovec, B J Kline, T Fox. Effect of cimetidine on quinidine clearance. Ther Drug Monit, 1984;6:306-312.](https://doi.org/10.1097/00007691-198409000-00009)
+[13] [B G Hardy, J J Schentag. Lack of effect of cimetidine on the metabolism of quinidine: effect on renal clearance. Int J Clin Pharmacol Ther Toxicol, 1988;26:388-391.](https://pubmed.ncbi.nlm.nih.gov/3220613/)
 
-[14] [D Darbar, S Dell'Orto, K Mörike, G R Wilkinson, D M Roden. Dietary salt increases first-pass elimination of oral quinidine. Clin Pharmacol Ther, 1997;61:292-300.](https://doi.org/10.1016/S0009-9236(97)90161-2)
+[14] [K W Kolb, W R Garnett, R E Small, G W Vetrovec, B J Kline, T Fox. Effect of cimetidine on quinidine clearance. Ther Drug Monit, 1984;6:306-312.](https://doi.org/10.1097/00007691-198409000-00009)
 
-[15] [D Fremstad, O G Nilsen, L Storstein, J Amlie, S Jacobsen. Pharmacokinetics of quinidine related to plasma protein binding in man. Eur J Clin Pharmacol, 1979;15:187-192.](https://doi.org/10.1007/BF00563104)
+[15] [D Darbar, S Dell'Orto, K Mörike, G R Wilkinson, D M Roden. Dietary salt increases first-pass elimination of oral quinidine. Clin Pharmacol Ther, 1997;61:292-300.](https://doi.org/10.1016/S0009-9236(97)90161-2)
 
-[16] [T W Guentert, N H Holford, P E Coates, R A Upton, S Riegelman. Quinidine pharmacokinetics in man: choice of a disposition model and absolute bioavailability studies. J Pharmacokinet Biopharm, 1979;7:315-330.](https://doi.org/10.1007/BF01062532)
+[16] [D Fremstad, O G Nilsen, L Storstein, J Amlie, S Jacobsen. Pharmacokinetics of quinidine related to plasma protein binding in man. Eur J Clin Pharmacol, 1979;15:187-192.](https://doi.org/10.1007/BF00563104)
 
-[17] [W D Mason, J O Covinsky, J L Valentine, K L Kelly, O H Weddle, B L Martz. Comparative plasma concentrations of quinidine formulations. J Pharm Sci, 1976;65:1325-1329.](https://doi.org/10.1002/jps.2600650916)
+[17] [T W Guentert, N H Holford, P E Coates, R A Upton, S Riegelman. Quinidine pharmacokinetics in man: choice of a disposition model and absolute bioavailability studies. J Pharmacokinet Biopharm, 1979;7:315-330.](https://doi.org/10.1007/BF01062532)
 
-[18] [P Bolme, U Otto. Dose-dependence of the pharmacokinetics of quinidine. Eur J Clin Pharmacol, 1977;12:73-76.](https://doi.org/10.1007/BF00561409)
+[18] [W D Mason, J O Covinsky, J L Valentine, K L Kelly, O H Weddle, B L Martz. Comparative plasma concentrations of quinidine formulations. J Pharm Sci, 1976;65:1325-1329.](https://doi.org/10.1002/jps.2600650916)
 
-[19] [G M Frigo, E Perucca, M Teggia-Droghi, G Gatti, A Mussini, J Salerno. Comparison of quinidine plasma concentration curves after oral formulations. Br J Clin Pharmacol, 1977;4:449-454.](https://doi.org/10.1111/j.1365-2125.1977.tb00760.x)
+[19] [P Bolme, U Otto. Dose-dependence of the pharmacokinetics of quinidine. Eur J Clin Pharmacol, 1977;12:73-76.](https://doi.org/10.1007/BF00561409)
 
-[20] M R Rao, A Chandrasekaran, J P Gibbs, R L Walsky, M VandenBranden. Pharmacokinetics of quinidine after oral administration in healthy subjects. Clin Pharmacol Ther, 1995.
+[20] [G M Frigo, E Perucca, M Teggia-Droghi, G Gatti, A Mussini, J Salerno. Comparison of quinidine plasma concentration curves after oral formulations. Br J Clin Pharmacol, 1977;4:449-454.](https://doi.org/10.1111/j.1365-2125.1977.tb00760.x)
 
-[21] [K M Kaukonen, K T Olkkola, P J Neuvonen. Itraconazole increases plasma concentrations of quinidine. Clin Pharmacol Ther, 1997;62:510-517.](https://pubmed.ncbi.nlm.nih.gov/9390107/)
+[21] [B R Rao, D Rambhau. Absence of a pharmacokinetic interaction between quinidine and diazepam. Drug Metabol Drug Interact, 1995;12:45-51.](https://doi.org/10.1515/dmdi.1995.12.1.45)
 
-[22] [J G Shin, W K Kang, J H Shon, M Arefayene, Y R Yoon, K A Kim, D I Kim, D S Kim, K H Cho, R L Woosley, D A Flockhart. Possible interethnic differences in quinidine-induced QT prolongation between healthy Caucasian and Korean subjects. Br J Clin Pharmacol, 2007;63:206-215.](https://pubmed.ncbi.nlm.nih.gov/17096683/)
+[22] [K M Kaukonen, K T Olkkola, P J Neuvonen. Itraconazole increases plasma concentrations of quinidine. Clin Pharmacol Ther, 1997;62:510-517.](https://doi.org/10.1016/S0009-9236(97)90046-1)
+
+[23] [J G Shin, W K Kang, J H Shon, M Arefayene, Y R Yoon, K A Kim, D I Kim, D S Kim, K H Cho, R L Woosley, D A Flockhart. Possible interethnic differences in quinidine-induced QT prolongation between healthy Caucasian and Korean subjects. Br J Clin Pharmacol, 2007;63:206-215.](https://doi.org/10.1111/j.1365-2125.2006.02793.x)

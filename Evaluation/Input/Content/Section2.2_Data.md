@@ -35,7 +35,7 @@ Model-verification clinical data:
 | Publication | Arm / Treatment / Information used for model verification |
 | --- | --- |
 | [Ching 1991](References.md), [Laganière 1996](References.md), and [Bleske 1990](References.md) | Plasma PK profiles in adults after oral administration of 200 to 400 mg quinidine sulfate. |
-| [Damkier 1999](References.md), [Edwards 1987](References.md), [Hardy 1983](References.md), and [Kolb 1984](References.md) | Plasma PK profiles in adults after oral administration of 200 to 400 mg quinidine sulfate in interaction settings. |
+| [Damkier 1999](References.md), [Edwards 1987](References.md), [Hardy 1988](References.md), and [Kolb 1984](References.md) | Plasma PK profiles in adults after oral administration of 200 to 400 mg quinidine sulfate in interaction settings. |
 | [Rao 1995](References.md) and [Kaukonen 1997](References.md) | Plasma PK profiles in adults after oral administration of 100 to 250 mg quinidine sulfate. |
 | [Bolme 1977](References.md), [Frigo 1977](References.md), [Mason 1976](References.md), and [Strum 1977](References.md) | Plasma PK profiles in adults after oral quinidine formulations and doses of 200 to 600 mg. |
 | [Shin 2007](References.md), [Darbar 1997](References.md), [Fremstad 1979](References.md), and [Guentert 1979](References.md) | Plasma PK profiles in adults after intravenous or oral quinidine administration, including unbound quinidine or salt-intake conditions where available. |

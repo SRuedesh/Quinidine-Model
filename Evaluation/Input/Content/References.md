@@ -10,7 +10,7 @@
 10. Bleske BE, Carver PL, Annesley TM, Bleske JRM, Morady F. Effect of ciprofloxacin on quinidine pharmacokinetic and ECG parameters. J Clin Pharmacol. 1990;30:911-915. doi:10.1002/j.1552-4604.1990.tb03570.x.
 11. Damkier P, Hansen LL, Brøsen K. Rifampicin treatment greatly increases apparent oral clearance of quinidine. Pharmacol Toxicol. 1999;85:257-262. doi:10.1111/j.1600-0773.1999.tb02019.x.
 12. Edwards DJ, Lavoie R, Beckman H, Blevins R, Rubenfire M. Effect of verapamil on quinidine pharmacokinetics and metabolism. Clin Pharmacol Ther. 1987;41:68-73. doi:10.1038/clpt.1987.11.
-13. Hardy BG, Schentag JJ. Lack of effect of cimetidine on the metabolism of quinidine. Int J Clin Pharmacol Ther Toxicol. 1983;26:388-391.
+13. Hardy BG, Schentag JJ. Lack of effect of cimetidine on the metabolism of quinidine: effect on renal clearance. Int J Clin Pharmacol Ther Toxicol. 1988;26:388-391.
 14. Kolb KW, Garnett WR, Small RE, Vetrovec GW, Kline BJ, Fox T. Effect of cimetidine on quinidine clearance. Ther Drug Monit. 1984;6:306-312. doi:10.1097/00007691-198409000-00009.
 15. Darbar D, Dell'Orto S, Mörike K, Wilkinson GR, Roden DM. Dietary salt increases first-pass elimination of oral quinidine. Clin Pharmacol Ther. 1997;61:292-300. doi:10.1016/S0009-9236(97)90161-2.
 16. Fremstad D, Nilsen OG, Storstein L, Amlie J, Jacobsen S. Pharmacokinetics of quinidine related to plasma protein binding in man. Eur J Clin Pharmacol. 1979;15:187-192. doi:10.1007/BF00563104.
@@ -27,11 +27,11 @@
 27. Austin RP, Barton P, Cockroft SL, Wenlock MC, Riley RJ. Influence of nonspecific microsomal binding on apparent intrinsic clearance. Drug Metab Dispos. 2002;30:1497-1503. doi:10.1124/dmd.30.12.1497.
 28. Watanabe R, Esaki T, Kawashima H, et al. Predicting Fraction Unbound in Human Plasma from Chemical Structure. Mol Pharm. 2018;15:5302-5311. doi:10.1021/acs.molpharmaceut.8b00785.
 
-29. Rao MR, Chandrasekaran A, Gibbs JP, Walsky RL, VandenBranden M. Pharmacokinetics of quinidine after oral administration in healthy subjects. Clin Pharmacol Ther. 1995.
+29. Rao BR, Rambhau D. Absence of a pharmacokinetic interaction between quinidine and diazepam. Drug Metabol Drug Interact. 1995;12:45-51. doi:10.1515/dmdi.1995.12.1.45.
 
-30. Kaukonen KM, Olkkola KT, Neuvonen PJ. Itraconazole increases plasma concentrations of quinidine. Clin Pharmacol Ther. 1997.
+30. Kaukonen KM, Olkkola KT, Neuvonen PJ. Itraconazole increases plasma concentrations of quinidine. Clin Pharmacol Ther. 1997;62:510-517. doi:10.1016/S0009-9236(97)90046-1.
 
-31. Shin JG, Kang WK, Shon JH, Arefayene M, Yoon YR, Kim KA, Flockhart DA. Possible interethnic differences in quinidine pharmacokinetics. Clin Pharmacol Ther. 2007.
+31. Shin JG, Kang WK, Shon JH, Arefayene M, Yoon YR, Kim KA, Kim DI, Kim DS, Cho KH, Woosley RL, Flockhart DA. Possible interethnic differences in quinidine-induced QT prolongation between healthy Caucasian and Korean subjects. Br J Clin Pharmacol. 2007;63:206-215. doi:10.1111/j.1365-2125.2006.02793.x.
 
 32. Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016;5:516-531.
 

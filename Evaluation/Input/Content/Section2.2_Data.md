@@ -18,7 +18,7 @@ The table below summarizes the drug-dependent inputs documented for the quinidin
 
 ### 2.2.2 Clinical data
 
-The evaluation uses 71 observed-data records for quinidine and 3-hydroxyquinidine in peripheral venous blood plasma and urine where available. The evaluation plan assigns 10 simulations to model building and 33 simulations to model verification.
+The evaluation uses 71 observed-data records for quinidine and 3-hydroxyquinidine in peripheral venous blood plasma. The evaluation plan assigns 10 simulations to model building and 33 simulations to model verification.
 
 Model-building clinical data:
 

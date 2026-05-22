@@ -1,7 +1,10 @@
 name: CrossRefCheck with Anchors
 
-on: 
+on:
   push:
+    branches:
+      - review
+  pull_request:
     branches:
       - review
 

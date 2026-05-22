@@ -59,8 +59,13 @@ createQualificationReport <- function(qualificationRunnerFolder,
   workflow$reportFilePath <- file.path(workingDirectory, "report", "report.md")
   workflow$createWordReport <- createWordReport
   if (!is.null(maxSimulationsPerCore)) {
-    if (!is.numeric(maxSimulationsPerCore) || length(maxSimulationsPerCore) != 1 || is.na(maxSimulationsPerCore) || maxSimulationsPerCore < 1) {
-      stop("maxSimulationsPerCore must be a numeric scalar greater than or equal to 1", call. = FALSE)
+    if (!is.numeric(maxSimulationsPerCore) ||
+        length(maxSimulationsPerCore) != 1 ||
+        is.na(maxSimulationsPerCore) ||
+        !is.finite(maxSimulationsPerCore) ||
+        maxSimulationsPerCore < 1 ||
+        maxSimulationsPerCore != as.integer(maxSimulationsPerCore)) {
+      stop("maxSimulationsPerCore must be an integer scalar greater than or equal to 1", call. = FALSE)
     }
     workflow$simulate$settings$maxSimulationsPerCore <- as.integer(maxSimulationsPerCore)
   }

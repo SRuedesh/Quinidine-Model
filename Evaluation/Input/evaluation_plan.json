@@ -1,0 +1,774 @@
+{
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Quinidine",
+      "Path": "../../Quinidine-Model.json",
+      "BuildingBlocks": []
+    }
+  ],
+  "ObservedDataSets": [],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ]
+    },
+    "AllPlots": [
+      {
+        "Project": "Quinidine",
+        "Simulation": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Ochs (1978) - quinidine sulfate, po, 400/200 mg md, n=7",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Ochs (1978) - quinidine sulfate, po, 400 mg, n=7",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Ching (1991) - quinidine sulfate, po, 400 mg, n=8",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - A",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - B",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Laganière (1996) - quinidine sulfate, po, 200 mg, n=12",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Bleske (1990) - quinidine sulfate, po, 400 mg, n=8",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Damkier (1999) - quinidine sulfate, 200 mg, po, n=6",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Damkier (1999a) - quinidine sulfate, 200 mg, po, n=6",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Edwards (1987) - quinidine sulfate, 400 mg, po, n=6",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Hardy (1983) - quinidine sulfate, 400 mg, po, n=6",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Kolb (1984) - quinidine sulfate, 400 mg, po, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Rao (1995) - quinidine sulfate, po, 250 mg, n=8",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Kaukonen (1997) - quinidine sulfate, 100 mg, po, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Maeda (2011) - quinidine sulfate, po, 0.1 mg, n=7",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Maeda (2011) - quinidine sulfate, po, 1 mg, n=7",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Maeda (2011) - quinidine sulfate, po, 10 mg, n=7",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Maeda (2011) - quinidine sulfate, po, 100 mg, n=7",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - A",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - B",
+        "SectionId": 331
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - C",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - D",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Bolme (1977) - quinidine sulfate, 400 mg tid, po, n=3",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Bolme (1977) - quinidine sulfate, 300 mg tid, po, n=5",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Bolme (1977) - quinidine sulfate, 200 mg tid, po, n=5",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Frigo (1977) - quinidine sulfate, 600 mg, po, n=8",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - tab",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - sol",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - caps",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean male",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean female",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=7 - Caucasian male",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=6 - Caucasian female",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Darbar (1997) - quinidine gluconate, iv, 187.5 mg base, high salt, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Darbar (1997) - quinidine sulfate, po, 600 mg, high salt, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Darbar (1997) - quinidine sulfate, po, 600 mg, low salt, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Darbar (1997) - quinidine gluconate, iv, 187.5 mg base, low salt, n=9",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Fremstad (1979) - quinidine gluconate, iv infusion, 0.5 mmol, n=7",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Fremstad (1979) - quinidine gluconate, iv infusion, 1 mmol, n=6",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, EF first iv",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, EF second iv",
+        "SectionId": 332
+      },
+      {
+        "Project": "Quinidine",
+        "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, RL",
+        "SectionId": 332
+      }
+    ],
+    "GOFMergedPlots": [
+      {
+        "SectionId": 321,
+        "Title": "Quinidine observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "Quinidine",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Quinidine",
+                "Simulation": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1978) - quinidine sulfate, po, 400/200 mg md, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1978) - quinidine sulfate, po, 400_200 mg md, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1978) - quinidine sulfate, po, 400 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1978) - quinidine sulfate, po, 400 mg, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ching (1991) - quinidine sulfate, po, 400 mg, n=8",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ching (1991) - quinidine sulfate, po, 400 mg, n=8, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - A",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - A, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - A",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma Unbound (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - A, quinidine unbound",
+                "Color": "#7030A0"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - B",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - B, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - B",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma Unbound (Peripheral Venous Blood)",
+                "ObservedData": "Ochs (1980) - quinidine gluconate, iv, 300 mg base, n=1 - B, quinidine unbound",
+                "Color": "#7030A0"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Laganière (1996) - quinidine sulfate, po, 200 mg, n=12",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Laganière (1996) - quinidine sulfate, po, 200 mg, n=12, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Bleske (1990) - quinidine sulfate, po, 400 mg, n=8",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Bleske (1990) - quinidine sulfate, po, 400 mg, n=8, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Damkier (1999) - quinidine sulfate, 200 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Damkier (1999) - quinidine sulfate, 200 mg, po, n=6, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Damkier (1999a) - quinidine sulfate, 200 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Damkier (1999a) - quinidine sulfate, 200 mg, po, n=6, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Edwards (1987) - quinidine sulfate, 400 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Edwards (1987) - quinidine sulfate, 400 mg, po, n=6, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Hardy (1983) - quinidine sulfate, 400 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Hardy (1983) - quinidine sulfate, 400 mg, po, n=6, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Kolb (1984) - quinidine sulfate, 400 mg, po, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Kolb (1984) - quinidine sulfate, 400 mg, po, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Rao (1995) - quinidine sulfate, po, 250 mg, n=8",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Rao (1995) - quinidine sulfate, oral, 250 mg, n=8, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Kaukonen (1997) - quinidine sulfate, 100 mg, po, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Kaukonen (1997) - quinidine sulfate, 100 mg, po, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 0.1 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 0.1 mg, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 1 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 1 mg, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 10 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 10 mg, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 100 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 100 mg, n=7, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - A",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - A - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - B",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - B - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - C",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - C - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - D",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Strum (1977) - quinidine sulfate, 400 mg, po, n=11 - D - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Frigo (1977) - quinidine sulfate, 600 mg, po, n=8",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Frigo (1977) - quinidine sulfate, 600 mg, po, n=8, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - tab",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - tab",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - sol",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - sol, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - caps",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Mason (1976) - quinidine sulfate, po, 200 mg, n=13 - caps",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean male",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean male",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean female",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Shin (2007) - quinidine base 4 mg/kg, iv, n=12 - Korean female - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=7 - Caucasian male",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Shin (2007) - quinidine base 4 mg/kg, iv, n=7 - Caucasian male - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Shin (2007) - quinidine base 4 mg/kg, iv, n=6 - Caucasian female",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Shin (2007) - quinidine base 4 mg/kg, iv, n=6 - Caucasian female - quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Darbar (1997) - quinidine gluconate, iv, 187.5 mg base, high salt, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Darbar (1997) - quinidine gluconate, iv infusion, 187.5 mg (as base), high salt, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Darbar (1997) - quinidine sulfate, po, 600 mg, high salt, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Darbar (1997) - quinidine sulfate, 600 mg, po, high salt, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Darbar (1997) - quinidine sulfate, po, 600 mg, low salt, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Darbar (1997) - quinidine sulfate, 600 mg, po, low salt, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Darbar (1997) - quinidine gluconate, iv, 187.5 mg base, low salt, n=9",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Darbar (1997) - quinidine gluconate, iv infusion, 187.5 mg (as base), low salt, n=9, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, EF first iv",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Guentert (1979) - quinidine gluconate, iv infusion, 3.74 mg_kg (as base), n=1, EF, first iv, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, EF second iv",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Guentert (1979) - quinidine gluconate, iv infusion, 3.74 mg_kg (as base), n=1, EF, second iv, quinidine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Guentert (1979) - QN gluc, iv, 3.74 mg/kg base, n=1, RL",
+                "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Guentert (1979), quinidine gluconate, iv infusion, 3.74 mg_kg (as base), n=1, RL, quinidine",
+                "Color": "#FF0000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 322,
+        "Title": "3-Hydroxyquinidine observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "3-Hydroxyquinidine",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Quinidine",
+                "Simulation": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Andreasen (2007) - quinidine sulfate, po, 200 mg, n=10, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Ching (1991) - quinidine sulfate, po, 400 mg, n=8",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ching (1991) - quinidine sulfate, po, 400 mg, n=8, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Damkier (1999) - quinidine sulfate, 200 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Damkier (1999) - quinidine sulfate, 200 mg, po, n=6, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Damkier (1999a) - quinidine sulfate, 200 mg, po, n=6",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Damkier (1999a) - quinidine sulfate, 200 mg, po, n=6, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 0.1 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 0.1 mg, n=7, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 1 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 1 mg, n=7, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 10 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 10 mg, n=7, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Quinidine",
+                "Simulation": "Maeda (2011) - quinidine sulfate, po, 100 mg, n=7",
+                "Output": "Organism|PeripheralVenousBlood|3-Hydroxyquinidine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Maeda (2011) - quinidine sulfate, po, 100 mg, n=7, 3-hydroxyquinidine",
+                "Color": "#0000FF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Project": "Quinidine",
+      "Name": "Quinidine",
+      "Type": "Compound",
+      "SectionId": 31
+    },
+    {
+      "Project": "Quinidine",
+      "Name": "3-Hydroxyquinidine",
+      "Type": "Compound",
+      "SectionId": 31
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Introduction",
+      "Content": "Content/Section1_Introduction.md"
+    },
+    {
+      "Id": 2,
+      "Title": "Methods",
+      "Sections": [
+        {
+          "Id": 21,
+          "Title": "Modeling strategy",
+          "Content": "Content/Section2.1_Modeling_Strategy.md"
+        },
+        {
+          "Id": 22,
+          "Title": "Data used",
+          "Content": "Content/Section2.2_Data.md"
+        },
+        {
+          "Id": 23,
+          "Title": "Model parameters and assumptions",
+          "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": "Results and Discussion",
+      "Content": "Content/Section3_Results_and_Discussion.md",
+      "Sections": [
+        {
+          "Id": 31,
+          "Title": "Quinidine final input parameters",
+          "Content": "Content/Input_table.md"
+        },
+        {
+          "Id": 32,
+          "Title": "Diagnostic plots",
+          "Content": "Content/GOF_diagnostics.md",
+          "Sections": [
+            {
+              "Id": 321,
+              "Title": "Quinidine goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_quinidine.md"
+            },
+            {
+              "Id": 322,
+              "Title": "3-Hydroxyquinidine goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_3hydroxyquinidine.md"
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Title": "Concentration-time profiles",
+          "Content": "Content/Concentration_time_profiles.md",
+          "Sections": [
+            {
+              "Id": 331,
+              "Title": "Model Building",
+              "Content": "Content/Concentration_time_profiles_building.md"
+            },
+            {
+              "Id": 332,
+              "Title": "Model Verification",
+              "Content": "Content/Concentration_time_profiles_verification.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": "Conclusion",
+      "Content": "Content/Section4_Conclusion.md"
+    },
+    {
+      "Id": 5,
+      "Title": "References",
+      "Content": "Content/References.md"
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
+}
